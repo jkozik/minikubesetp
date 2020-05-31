@@ -1,8 +1,11 @@
-# minikubesetp
+# minikube setup notes
+```
 https://kubernetes.io/docs/tasks/tools/install-minikube/
 https://minikube.sigs.k8s.io/docs/start/
 https://backstage.forgerock.com/docs/forgeops/6.5/devops-guide-minikube/
 https://kubernetes.io/docs/setup/learning-environment/minikube/
+https://kubernetes.io/docs/tutorials/hello-minikube/
+```
 
 Setup Docker on my dell2 host.  Not in a VM ! First in root login:
 ```
