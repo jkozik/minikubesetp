@@ -56,5 +56,12 @@ $ minikube ssh /bin/bash
 $ minikube ip     # to see the IP address of the cluster  
 $ minikube stop/start/delete
 ```
- 
+It is good to know that minikube mounts the /home directory of the host.  So the minikube VM can easily access host files as follows:
+```
+# Minikube host prompt
+$ minikube ssh
+  $ cd /hosthome
+  $ ls wjr/public_html       #this is where my realtime.txt weather file is located.
+```
+
   
