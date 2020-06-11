@@ -63,7 +63,7 @@ $ minikube ssh
   $ cd /hosthome
   $ ls wjr/public_html       #this is where my realtime.txt weather file is located.
 ```
-Some other useful commands -- that must be run on the host desktop.  For me this means running "Remote Desktop" from my Windows PC. 
+Some other useful commands -- that must be run on the host desktop.  For me this means running "Remote Desktop" from my Windows PC.  Also, to make this work right, I needed to change my default browser on my remote desktop to Firefox. (System Settings->Default Applications->Web Browser firefox) 
 
 To make a kubernetes deployment visible to the outside world, one needs to apply a service to it.  minikube can list the exposed services and can bring up a webpage.
 ```
@@ -74,4 +74,4 @@ Also, the kubernetes dashboard is accessible from the Remote Desktop
 ```
 $ minikube dashboard
 ```
-  
+I do almost all of my work using the command link, so the dashboard is not frequently used by me.  
